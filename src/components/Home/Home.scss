@@ -41,19 +41,18 @@ $primary-color: rgb(153 163 175);
   margin-top: 3rem;
   list-style: none;
   display: grid;
-  row-gap: 2rem;
-  list-style: none;
-  display: grid;
   grid-template-columns: 10rem 10rem 10rem;
   justify-content: center;
+  row-gap: 2rem;
   column-gap: 4rem;
+  list-style: none;
 }
 .roadmap-field-list-span {
   width: 10rem;
-  padding: 1.3rem;
   border: 0.3px solid $primary-color;
   background-color: rgba(21, 29, 51, 0.92);
   border-radius: 25px;
+  padding: 1.3rem;
   color: rgb(216 180 254);
 }
 .roadmap-field-list-span:hover {
