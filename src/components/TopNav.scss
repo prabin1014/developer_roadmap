@@ -1,0 +1,25 @@
+.topnav {
+  margin-block-start: 0;
+  height: 4rem;
+  background-image: radial-gradient(
+    54.97% 272.54% at 27.36% -134.72%,
+    rgba(108, 148, 255, 0.92) 0,
+    rgba(0, 0, 0, 0.92) 100%
+  );
+  color: rgb(156 163 175);
+  font-size: large;
+}
+
+.topnav-link {
+  margin-block-start: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  align-items: center;
+  padding: 1rem 0 0 0;
+}
+.topnav-link-item:hover {
+  cursor: pointer;
+  color: whitesmoke;
+}
