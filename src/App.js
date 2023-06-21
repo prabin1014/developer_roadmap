@@ -1,11 +1,17 @@
 import React from "react";
-import { TopNav } from "./components/TopNav";
+import { Layout } from "./components/Layout";
+import { Home } from "./components/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.scss";
 
 export const App = () => {
   return (
-    <div>
-      <TopNav />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
