@@ -1,19 +1,63 @@
+$primary-color: rgb(153 163 175);
+
 .roadmap {
   height: 100vh;
   background-color: rgba(3, 9, 27, 0.92);
-  color: rgb(153 163 175);
+  color: $primary-color;
 }
 .roadmap-title {
   margin-block-start: 0;
-  margin-block-start: 0;
+  color: rgb(216 180 254);
+  font-size: 3rem;
   text-align: center;
   padding-top: 6rem;
 }
 .roadmap-description {
-  text-align: center;
   width: 50%;
-  position: absolute;
-  left: 25%;
-  word-break: break-word;
+  padding: 0 25% 0 25%;
   font-size: 1.3rem;
+  text-align: center;
+  word-break: break-word;
+}
+.roadmap-content {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+}
+.roadmap-content-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.line {
+  width: 30%;
+  border: 1.5px solid $primary-color;
+}
+.roadmap-field {
+  margin-right: 3rem;
+}
+.roadmap-field-list {
+  margin-top: 3rem;
+  list-style: none;
+  display: grid;
+  row-gap: 2rem;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+  justify-content: center;
+  column-gap: 4rem;
+}
+.roadmap-field-list-span {
+  width: 10rem;
+  padding: 1.3rem;
+  border: 0.3px solid $primary-color;
+  background-color: rgba(21, 29, 51, 0.92);
+  border-radius: 25px;
+  color: rgb(216 180 254);
+}
+.roadmap-field-list-span:hover {
+  border: 2px solid $primary-color;
+  cursor: pointer;
+  color: whitesmoke;
 }
