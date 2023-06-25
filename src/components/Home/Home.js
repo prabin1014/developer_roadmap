@@ -13,11 +13,16 @@ export const Home = () => {
         </p>
       </div>
 
+      {/* List of Roadmap for the different fields begins from here */}
+      {/* Header part */}
+
       <section className="roadmap-content">
         <div className="line"></div>
         <div className="roadmap-content-title">Role Based Roadmaps</div>
         <div className="line"></div>
       </section>
+
+      {/* List part made using grid */}
 
       <section className="roadmap-field">
         <ul className="roadmap-field-list">
@@ -38,6 +43,38 @@ export const Home = () => {
           </li>
           <li className="roadmap-field-list-span">
             <span> Presentation </span>
+          </li>
+        </ul>
+      </section>
+
+      {/* Another list of skills roadmap begins from here */}
+      {/* Header part */}
+      <section className="roadmap-content">
+        <div className="line"></div>
+        <div className="roadmap-content-title">Role Based Roadmaps</div>
+        <div className="line"></div>
+      </section>
+
+      {/* List part made uing grid */}
+      <section className="roadmap-field">
+        <ul className="roadmap-field-list">
+          <li className="roadmap-field-list-span">
+            <span> React </span>
+          </li>
+          <li className="roadmap-field-list-span">
+            <span> TypeScript </span>
+          </li>
+          <li className="roadmap-field-list-span">
+            <span> Python </span>
+          </li>
+          <li className="roadmap-field-list-span">
+            <span> Java </span>
+          </li>
+          <li className="roadmap-field-list-span">
+            <span> JavaScript </span>
+          </li>
+          <li className="roadmap-field-list-span">
+            <span> Docker </span>
           </li>
         </ul>
       </section>
