@@ -51,7 +51,7 @@ export const Home = () => {
       {/* Header part */}
       <section className="roadmap-content">
         <div className="line"></div>
-        <div className="roadmap-content-title">Role Based Roadmaps</div>
+        <div className="roadmap-content-title">Skill Based Roadmaps</div>
         <div className="line"></div>
       </section>
 
